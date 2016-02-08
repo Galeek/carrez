@@ -1,0 +1,21 @@
+{
+	"title": "Meilleurs Agents",
+	"type": "object",
+	"properties": {
+		"town": {
+			"type": "string"
+		},
+		"flat_price": {
+			"type": "integer",
+			"minimum": 0
+		},
+		"house_price": {
+			"type": "integer",
+			"minimum" : 0
+		},
+		"flat_loan": {
+			"type": "integer",
+			"minimum" : 0
+		}
+	}
+}
